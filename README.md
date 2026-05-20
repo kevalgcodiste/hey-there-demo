@@ -1,29 +1,25 @@
 # hey-there-demo
 
-A repository for Next.js and React.js related projects.
+Small demo snippets in:
+- Python (`python/`)
+- TypeScript (`typescript/`)
+- Go (`go/`)
 
-## Tech Stack
+## Run
 
-- **Next.js** — React framework for production (routing, SSR/SSG, API routes)
-- **React.js** — UI library for building component-based interfaces
+### Python
+```bash
+python python/hello.py
+```
 
-## Getting Started
+### TypeScript
+```bash
+npm i -D typescript
+npx tsc -p typescript/tsconfig.json
+node typescript/dist/index.js
+```
 
-1. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-2. Run the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-3. Open http://localhost:3000 in your browser.
-
-## Learn More
-
-- Next.js Docs: https://nextjs.org/docs
-- React Docs: https://react.dev/
+### Go
+```bash
+go run go/main.go
+```
